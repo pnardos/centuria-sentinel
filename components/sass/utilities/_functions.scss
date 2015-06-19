@@ -1,0 +1,21 @@
+// Functions and Directives
+
+// Calculate rem values
+
+@function rem($target, $context: $base__font-size) {
+  @return ($target / $context) * 1rem;
+}
+
+// Call the colour palette modifiers
+
+@function palette($palette, $shade: 'base') {
+  @return map-get(map-get($palettes, $palette), $shade);
+}
+
+// Set the "context" width for the grid
+
+@function g-context($g-col-width, $g-col-count, $g-gutter-width) {
+   $g-context: ($g-col-width * $g-col-count) + ($g-gutter-width * ($g-col-count - 1));
+   @return $g-context;
+} 
+

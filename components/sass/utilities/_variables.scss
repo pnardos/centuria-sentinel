@@ -1,0 +1,100 @@
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Descriptive Base Colors
+
+$white : #fff;
+$black : #0b0b0b;
+$grey  : #797e83;
+
+$fountain-blue  : #258CCC;
+$emerald        : #9acf3a;
+$luka           : #F38834;
+$coral          : #F53423;
+$scooter        : #39add1;
+$gray           : #4A4A4A;
+$lightgray      : #E8E8E8;
+$border-gray    : #D8D8D8;
+$searchgray     : #979797;
+$text-color     : #6F6F6F;
+$neutral        : #EFEFEF;
+$more           : #E8E8E8; 
+$ruby           : #F53423;
+$size           : $white;
+$brown          : #59381C;
+$purple-haze    : #705679;
+$breadcrumb     : #8F8F8F;
+$sky-blue       : #2A9FD6;
+$remove         : #979797;
+$fb-color       : #3B5998;
+
+$centuria       : #AB3A8E;
+$dark-centuria  : #1F1F1F; 
+$centuria-haze  : #501E70;
+$centuria-gray  : #8E8E8E;
+$centuria-text  : #575757;
+$centuria-light : #F6EBF3;
+
+
+// Web App colors
+$sidebar        : #501E56;
+$orange         : #E45635;
+
+// Color Usage
+
+$color-primary   : $fountain-blue;
+$color-secondary : $emerald;
+$color-tertiary  : $luka;
+$color-shadow    : rgba($black, .2);
+
+// Color Palette Modifiers
+
+$palettes : (
+ gray : (
+   base      : $gray,
+   dark      : darken($gray, 8%),
+   x-dark    : darken($gray, 16%),
+   light     : lighten($gray, 12%),
+   x-light   : lighten($gray, 35%),
+   xx-light  : lighten($gray, 43%),
+ )
+);
+
+// UI Colors
+
+
+$ui-colors: (
+  default   : $fountain-blue,
+  success   : $emerald,
+  error     : $coral,
+  warning   : $luka,
+  info      : lighten($fountain-blue, 30%),
+  neutral   : $neutral,
+  more      : $more,
+  size      : $size,
+  purply    : $purple-haze,
+  brownie   : $brown,
+  blackie   : $black,
+  remove    : $remove,
+  facebook  : $fb-color
+);
+// Text
+
+$base__font-size : 16px;
+$base__line      : 24px;
+
+// Path to Assets
+
+$path--rel       : "../images";
+
+
+
+
+
+
+

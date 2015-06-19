@@ -1,0 +1,26 @@
+// ==========================================================================
+// Images
+// ==========================================================================
+
+.img {
+  @include m(wrap) {
+    padding: rem(10px);
+    border: 1px solid $border-gray;
+    border-radius: $br--default;
+  }
+  
+  @include m(avatar) {
+    padding: rem(10px);
+    display: block;
+    border-radius: $br--default;
+  }
+  
+  @include m(hero) {
+    margin-bottom: rem(80px);
+    padding: rem(10px);
+  }
+}
+
+
+
+

@@ -1,0 +1,37 @@
+// ==========================================================================
+// Grid Columns
+// ==========================================================================
+
+// Calculated grid columns
+.grid__col {
+  @include mq(medium) {
+    @include g-columns;
+  }
+}
+
+
+// Column styles
+[class^="grid__col--"] {
+  @include mq(small){
+    margin-top: rem(12px);
+    margin-bottom: rem(12px);
+  }
+  
+  @include mq(medium) {
+    @include doubly(percentage($g-gutter-width / $context));
+    
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    &:last-of-type {
+      float: right;
+    }
+  }
+}
+
+// No Padding
+
+.no-padding {
+  padding: 0;
+}

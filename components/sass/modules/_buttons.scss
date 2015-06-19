@@ -1,0 +1,53 @@
+[class^="btn--"] {
+  @extend %center-align;
+  @extend %btn;
+  margin-bottom: em(20px, 14px); 
+  width: auto;
+  display: inline-block;
+  margin-right: em(15px, 14px);
+}
+
+// Offset
+
+.offset-top-10 {
+  margin-top: percentage(10 / 100);
+}
+
+.offset-top-30 {
+  margin-top: percentage(30 / 100);
+}
+.offset-top-8 {
+  margin-top: .8%;
+}
+.offset-bottom-10 {
+  margin-bottom: percentage(10 / 100);
+}
+.offset-bottom-5 {
+  margin-bottom: percentage(5 / 100);
+}
+
+.offset-top-5 {
+  margin-top: percentage(5 / 100);
+}
+
+.offset-top-2 {
+  margin-top: percentage(2 / 100);
+}
+
+.offset-padding-10 {
+  padding: 0 rem(10px);
+}
+
+.offset-padding-left {
+  padding: percentage(2 / 100);
+}
+
+.offset-margin-left {
+  margin: percentage(2 / 100);
+}
+
+.offset-margin-bottom-0 {
+  margin: 0;
+}
+
+

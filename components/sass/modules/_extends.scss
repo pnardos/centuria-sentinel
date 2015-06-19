@@ -1,0 +1,66 @@
+// ==========================================================================
+// Button Extends
+// ==========================================================================
+
+// Buttons
+
+%btn {
+  padding: 15px 30px;
+  border: 0;
+  border-radius: $br--default;
+  color: $white;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: rem(14px);
+  font-weight: $font-weight--medium;
+  letter-spacing: 0.6px;
+  transition: opacity $trns-duration;
+  display: block;
+  outline: 0;
+  &:hover {
+    opacity: 0.75;
+  }
+  &:active {
+    opacity: initial;
+  }
+}
+
+// Icons
+
+%icn--ui {
+	line-height: 0;
+	cursor: pointer;
+}
+
+// Dividers 
+ %divider {
+   width: 100%;
+   height: 1px;
+   display: block;
+   border-bottom: 1px solid $border-gray;
+   margin: 0;
+   padding: rem(20px) 0 0 0;
+   clear: both;
+ }
+
+// Button transparency
+
+%button-default {
+  border: none;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

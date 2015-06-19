@@ -1,0 +1,91 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: $base__font-size;
+	line-height: ($base__line/$base__font-size);
+	font-family: $font-family--secondary;
+}
+
+.wrap {
+  width: 70rem;
+  padding: rem(10px);
+  margin: 0 auto;
+}
+
+header {
+  margin: 0;
+}
+
+// Headings
+h1 {
+  @extend %headline-primary;
+}
+
+h2 {
+  @extend %headline-secondary;
+}
+
+h3 {
+  @extend %headline-tertiary;
+}
+
+h4 {
+  @extend %headline-quad;
+}
+
+aside {
+  float: left;
+  display: inline-block;
+}
+
+// Links
+a {
+  color: palette(gray, light);
+  text-decoration: none;
+  font-weight: $font-weight--medium;
+}
+
+// Images
+img {
+  margin-bottom: rem(10px);
+  max-width: 100%;
+  height: auto;
+}
+
+// Lists
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+p {
+  font-family: Lato-Regular;
+  font-size: rem($base__font-size);
+  font-weight: $font-weight--light;
+  color: $gray;
+  line-height: (19px / 16px);
+  margin: 0 0 rem(25px, 16px) 0;
+}
+
+blockquote {
+  font-size: rem(24px);
+  font-style: italic;
+  font-weight: $font-weight--light;
+  margin: rem(30px, 24px) 0;
+  padding: 0 0 0 5%;
+  border-left: solid rem(8px, 24px) palette(gray, light);
+}
+
+footer {
+	margin-top: 2rem;
+}

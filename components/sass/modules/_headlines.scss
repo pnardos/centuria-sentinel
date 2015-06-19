@@ -1,0 +1,88 @@
+// ==========================================================================
+// Headlines
+// ==========================================================================
+
+
+.headline {
+  &-primary {
+   @include m(grouped) {
+    @extend %headline-primary;
+	margin: 0;
+   }
+   @extend %headline-primary;
+   margin-bottom: 0;
+  }
+  
+  &-secondary {
+	@include m(grouped) {
+    @extend %headline-secondary;
+	margin: 0;
+    display: block;
+      @include m(bold) {
+        @extend %headline-secondary;
+        font-weight: $font-weight--bold;
+        color: $text-color;
+        text-align: center;
+        display: block;
+        
+        span {
+          font-size: rem(14px);
+          display: block;
+          font-family: $font-family--primary;
+          font-weight: $font-weight--light;
+          margin-top: rem(8px);
+        }
+     }  
+   }
+    
+    @extend %headline-secondary;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: rem(5px);
+  }
+  
+  &-tertiary {
+    @include m(grouped) {
+    @extend %headline-tertiary;
+	margin: 0;
+   }
+	@extend %headline-tertiary;
+    margin-bottom: 0;
+  }
+  
+  &-quad {
+    @include m(grouped) {
+    @extend %headline-quad;
+	margin: 0;
+   }
+	@extend %headline-quad;
+    margin-bottom: rem(30px, 38px);
+  }
+  
+  &-checkout {
+    @include m(grouped) {
+    @extend %headline-quad;
+	margin: 0;
+   }
+	@extend %headline-checkout;
+    margin-bottom: rem(30px, 38px);
+  }
+  
+  @include m(logo) {
+    float: left;
+    margin: 0;
+  }
+}
+
+.divider {
+ @extend %divider;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
