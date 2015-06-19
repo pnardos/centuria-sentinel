@@ -252,46 +252,50 @@ th {
   box-sizing: border-box; }
 
 /* line 10, ../components/sass/base/_base.scss */
+html, body {
+  height: 100%; }
+
+/* line 12, ../components/sass/base/_base.scss */
 body {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", Helvetica, Arial, sans-serif; }
 
-/* line 16, ../components/sass/base/_base.scss */
+/* line 18, ../components/sass/base/_base.scss */
 .wrap {
   width: 70rem;
   padding: 0.625rem;
   margin: 0 auto; }
 
-/* line 22, ../components/sass/base/_base.scss */
+/* line 24, ../components/sass/base/_base.scss */
 header {
   margin: 0; }
 
-/* line 43, ../components/sass/base/_base.scss */
+/* line 45, ../components/sass/base/_base.scss */
 aside {
   float: left;
   display: inline-block; }
 
-/* line 49, ../components/sass/base/_base.scss */
+/* line 51, ../components/sass/base/_base.scss */
 a {
   color: dimgray;
   text-decoration: none;
   font-weight: 400; }
 
-/* line 56, ../components/sass/base/_base.scss */
+/* line 58, ../components/sass/base/_base.scss */
 img {
   margin-bottom: 0.625rem;
   max-width: 100%;
   height: auto; }
 
-/* line 63, ../components/sass/base/_base.scss */
+/* line 65, ../components/sass/base/_base.scss */
 ul,
 li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
-/* line 71, ../components/sass/base/_base.scss */
+/* line 73, ../components/sass/base/_base.scss */
 p {
   font-family: Lato-Regular;
   font-size: 1rem;
@@ -300,7 +304,7 @@ p {
   line-height: 1.1875;
   margin: 0 0 1.5625rem 0; }
 
-/* line 80, ../components/sass/base/_base.scss */
+/* line 82, ../components/sass/base/_base.scss */
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
@@ -309,7 +313,7 @@ blockquote {
   padding: 0 0 0 5%;
   border-left: solid 0.33333rem dimgray; }
 
-/* line 89, ../components/sass/base/_base.scss */
+/* line 91, ../components/sass/base/_base.scss */
 footer {
   margin-top: 2rem; }
 
@@ -461,6 +465,14 @@ h4, .headline-quad--grouped, .headline-quad, .headline-checkout--grouped {
 /* line 35, ../components/sass/layout/_grid-column.scss */
 .no-padding {
   padding: 0; }
+
+/* line 4, ../components/sass/layout/_layout.scss */
+aside {
+  background: #501E56;
+  margin: 0;
+  padding-top: 1.5rem;
+  padding-left: 2.5rem;
+  height: 100%; }
 
 /* line 7, ../components/sass/modules/_extends.scss */
 .form__btn, [class^="btn--"] {
