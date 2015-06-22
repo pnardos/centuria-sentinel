@@ -5,6 +5,58 @@ aside {
   background: $sidebar;
   margin: 0;
   padding-top: rem(24px);
-  padding-left: rem(40px);
+  padding-left: 0;
   height: 100%;
+  
+  h1 {
+    img {
+      display: block;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+}
+
+.sidebar--list {
+  margin: rem(32px) 0 0 0;
+  padding: 0;
+  padding-left: 0;
+  
+  @include m(item) {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.sidebar--list__item {
+  margin-bottom: rem(26px);
+  padding-left: rem(28px);
+  a {
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: $font-family--primary;
+    font-weight: $font-weight--light;
+    font-size: rem(16px);
+    letter-spacing: rem(0.6px);
+  }
+  
+  i {
+    margin-right: rem(18px);
+  }
+  
+  ul {
+    margin: 0 0 0 rem(54px);
+    padding: 0;
+  }
+}
+
+.active {
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 8px solid $orange;
+  padding: rem(15px) 0 rem(15px) rem(20px);
+  width: 100%;
+  
+  a {
+    color: $white;
+  }
 }

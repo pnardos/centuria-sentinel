@@ -471,8 +471,53 @@ aside {
   background: #501E56;
   margin: 0;
   padding-top: 1.5rem;
-  padding-left: 2.5rem;
+  padding-left: 0;
   height: 100%; }
+  /* line 12, ../components/sass/layout/_layout.scss */
+  aside h1 img {
+    display: block;
+    width: auto;
+    margin: 0 auto; }
+
+/* line 20, ../components/sass/layout/_layout.scss */
+.sidebar--list {
+  margin: 2rem 0 0 0;
+  padding: 0;
+  padding-left: 0; }
+  /* line 57, ../components/sass/utilities/_mixins.scss */
+  .sidebar--list--item {
+    color: rgba(255, 255, 255, 0.6); }
+
+/* line 30, ../components/sass/layout/_layout.scss */
+.sidebar--list__item {
+  margin-bottom: 1.625rem;
+  padding-left: 1.75rem; }
+  /* line 33, ../components/sass/layout/_layout.scss */
+  .sidebar--list__item a {
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.0375rem; }
+  /* line 43, ../components/sass/layout/_layout.scss */
+  .sidebar--list__item i {
+    margin-right: 1.125rem; }
+  /* line 47, ../components/sass/layout/_layout.scss */
+  .sidebar--list__item ul {
+    margin: 0 0 0 3.375rem;
+    padding: 0; }
+
+/* line 53, ../components/sass/layout/_layout.scss */
+.active {
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 8px solid #E45635;
+  padding: 0.9375rem 0 0.9375rem 1.25rem;
+  width: 100%; }
+  /* line 59, ../components/sass/layout/_layout.scss */
+  .active a {
+    color: #fff; }
 
 /* line 7, ../components/sass/modules/_extends.scss */
 .form__btn, [class^="btn--"] {
