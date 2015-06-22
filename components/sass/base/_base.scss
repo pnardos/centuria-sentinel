@@ -7,10 +7,14 @@
 	box-sizing: border-box;
 }
 
+html, body {height: 100%}
+
 body {
 	font-size: $base__font-size;
 	line-height: ($base__line/$base__font-size);
 	font-family: $font-family--secondary;
+    position: relative;
+    overflow: hidden;
 }
 
 .wrap {
