@@ -6,7 +6,9 @@ aside {
   margin: 0;
   padding-top: rem(24px);
   padding-left: 0;
-  height: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
   
   h1 {
     img {
@@ -25,10 +27,19 @@ aside {
   @include m(item) {
     color: rgba(255, 255, 255, 0.6);
   }
+  
+  li:nth-child(4) {
+      padding-left: 0;
+      
+      a {
+        padding-left: rem(28px);
+      }
+      
+    }
 }
 
 .sidebar--list__item {
-  margin-bottom: rem(26px);
+  margin-bottom: rem(24px);
   padding-left: rem(28px);
   a {
     margin: 0;
@@ -43,20 +54,53 @@ aside {
   i {
     margin-right: rem(18px);
   }
-  
-  ul {
-    margin: 0 0 0 rem(54px);
+}
+
+ul.manage--list {
+    margin: rem(12px) 0 0 0;
     padding: 0;
-  }
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+  
+    li.manage--list__item {
+      margin: 0;
+      padding: 0 0 rem(12px) 0;
+  
+      a {
+        width: 100%;
+        display: block;
+        padding-left: rem(74px);
+        font-size: rem(15px);
+        letter-spacing: rem(0.8px);
+      }
+    }
+
+    li.manage--list__item:first-child {
+          padding-top: rem(12px);
+    }
+
+    li.manage--list__item:nth-child(4) {
+         padding-left: 0;
+    }
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 .active {
   background: rgba(255, 255, 255, 0.1);
-  border-left: 8px solid $orange;
+  border-left: 3px solid $orange;
   padding: rem(15px) 0 rem(15px) rem(20px);
   width: 100%;
   
   a {
     color: $white;
+    margin: 0;
+    
   }
 }
