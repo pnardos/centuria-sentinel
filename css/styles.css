@@ -558,6 +558,23 @@ ul.manage--list {
     color: #fff;
     margin: 0; }
 
+/* line 109, ../components/sass/layout/_layout.scss */
+.user--nav {
+  margin: 2.375rem 0 0 0;
+  padding: 0; }
+
+/* line 114, ../components/sass/layout/_layout.scss */
+.user--nav__item {
+  display: inline;
+  margin: 0;
+  padding: 0; }
+  /* line 119, ../components/sass/layout/_layout.scss */
+  .user--nav__item a {
+    color: #4B538B; }
+  /* line 123, ../components/sass/layout/_layout.scss */
+  .user--nav__item:first-child {
+    margin-right: 1.25rem; }
+
 /* line 7, ../components/sass/modules/_extends.scss */
 .form__btn, [class^="btn--"] {
   padding: 15px 30px;

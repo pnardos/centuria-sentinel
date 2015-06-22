@@ -104,3 +104,40 @@ ul.manage--list {
     
   }
 }
+
+
+.user--nav {
+  margin: rem(38px) 0 0 0;
+  padding: 0;
+}
+
+.user--nav__item {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  
+  a {
+    color: $purple-blue;
+  }
+  
+  &:first-child {
+    margin-right: rem(20px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
