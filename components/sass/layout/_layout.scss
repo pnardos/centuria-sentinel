@@ -126,6 +126,43 @@ ul.manage--list {
 }
 
 
+// Login styles
+.logo-login {
+  margin-top: rem(48px);
+  
+  
+  img {
+    display: block;
+    width: auto;
+    margin: 0 auto rem(24px) auto;
+  }
+}
+
+.headline-login {
+  font-family: $font-family--primary;
+  font-size: rem(24px);
+  font-weight: $font-weight--light;
+  text-align: center;
+  margin-bottom: rem(24px);
+}
+
+.lost-password {
+  width: 28%;
+  
+  
+  a {
+    font-family: Lato-Regular;
+    font-size: $base__font-size;
+    color: $centuria;
+    letter-spacing: rem(0.4px);
+    line-height: rem(19px);
+    
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
 
 
 
