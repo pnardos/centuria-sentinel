@@ -7,6 +7,21 @@
   margin-right: em(15px, 14px);
 }
 
+.btn-login {
+    @extend %btn;
+    font-family: $font-family--primary;
+    font-weight: $font-weight--bold;
+    font-size: rem(22px);
+    text-transform: uppercase;
+    color: $white;
+    letter-spacing: rem(0.6px);
+    background: $centuria;
+    margin: 0 auto rem(48px) auto;
+    padding: rem(12px) rem(24px);
+    display: block;
+    overflow: hidden;
+}
+
 // Offset
 
 .offset-top-10 {
