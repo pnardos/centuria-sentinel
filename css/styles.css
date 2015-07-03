@@ -516,27 +516,27 @@ aside {
     margin-right: 1.125rem; }
 
 /* line 59, ../components/sass/layout/_layout.scss */
-ul.manage--list {
+div.manage--list {
   margin: 0.75rem 0 0 0;
   padding: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.1); }
   /* line 65, ../components/sass/layout/_layout.scss */
-  ul.manage--list li.manage--list__item {
+  div.manage--list div.manage--list__item {
     margin: 0;
     padding: 0 0 0.75rem 0; }
     /* line 69, ../components/sass/layout/_layout.scss */
-    ul.manage--list li.manage--list__item a {
+    div.manage--list div.manage--list__item a {
       width: 100%;
       display: block;
       padding-left: 4.625rem;
       font-size: 0.9375rem;
       letter-spacing: 0.05rem; }
   /* line 78, ../components/sass/layout/_layout.scss */
-  ul.manage--list li.manage--list__item:first-child {
+  div.manage--list div.manage--list__item:first-child {
     padding-top: 0.75rem; }
   /* line 82, ../components/sass/layout/_layout.scss */
-  ul.manage--list li.manage--list__item:nth-child(4) {
+  div.manage--list div.manage--list__item:nth-child(4) {
     padding-left: 0; }
 
 /* line 87, ../components/sass/layout/_layout.scss */

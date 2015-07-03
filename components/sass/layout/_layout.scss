@@ -56,13 +56,13 @@ aside {
   }
 }
 
-ul.manage--list {
+div.manage--list {
     margin: rem(12px) 0 0 0;
     padding: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
   
-    li.manage--list__item {
+    div.manage--list__item {
       margin: 0;
       padding: 0 0 rem(12px) 0;
   
@@ -75,11 +75,11 @@ ul.manage--list {
       }
     }
 
-    li.manage--list__item:first-child {
+    div.manage--list__item:first-child {
           padding-top: rem(12px);
     }
 
-    li.manage--list__item:nth-child(4) {
+    div.manage--list__item:nth-child(4) {
          padding-left: 0;
     }
 }
